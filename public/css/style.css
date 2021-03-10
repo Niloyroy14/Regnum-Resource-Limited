@@ -1,0 +1,1010 @@
+
+/*
+override bootstrape css
+*/
+p{
+  text-align: justify;
+}
+
+
+.navbar{
+  background-color:#FFFFFF;
+  box-shadow: #888888 0 -1px 11px; 
+
+
+}
+
+
+ .nav-link {
+  color:black !important;
+  font-size:17px;
+  font-weight:bold;
+  padding:1px ; 
+}
+
+.nav-item {
+  margin-left:25px;
+}
+
+.navbar-nav {
+  display:flex;
+  flex-direction:column;
+  list-style:none;
+  margin-bottom:0;
+  margin-left: -36%;
+  margin-right: -7%;
+}
+
+
+.navbar-nav .nav-item .nav-link:hover {
+  border-bottom:2px solid green;
+  color:#000000;
+}
+
+.dropdown-menu .dropdown-item:hover {
+   color:green;
+  background:#DEE1E6;
+}
+
+.active {
+  color:#67B9E1 !important;
+    border-bottom:2px solid green; 
+}
+
+
+
+
+/*
+mystyle
+*/
+
+
+/*
+topsection
+*/
+
+.topsection {
+  background-color:#67B9E1;
+
+}
+
+
+.contantno p {
+
+  margin-top:9px;
+}
+
+
+.contantno p i {
+  font-size:18px;
+ 
+}
+
+
+.sociallogo  {
+  float:right;
+ 
+}
+
+
+.sociallogo ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.sociallogo ul li a i {
+  background:#000000;
+  border-radius:100%;
+  color:#FFFFFF;
+  font-size:16px;
+  height:25px;
+  line-height:27px;
+  text-align:center;
+  width:25px;
+}
+
+.sociallogo ul li:hover i{
+
+	background:#FFFFFF;
+	color:#000000;
+
+}
+
+
+/*
+nav-bar-section
+*/
+
+.logoimg{
+  margin-left: 60%;
+}
+
+
+
+ 
+/*full background image*/
+
+
+
+ /*.carousel-item {
+
+  height: 100vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.carousel-item {
+ width: 100%;
+float:none;
+  margin-right:0;
+  position:relative;
+  transition:transform 0.6s ease-in-out 0s, -webkit-transform 0.6s ease-in-out 0s;
+ 
+}
+
+.fullslider{
+    margin-top:0px;
+  padding:0;
+}
+*/
+
+
+
+
+body{
+  margin:0;
+  padding:0;
+}
+
+
+.main{
+  width:100%;
+  height:700px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slider-outer{
+   height:100% !important;
+   
+  overflow:hidden;
+}
+.slider{
+ 
+    width: 100%;
+    height: 100%;
+    
+}
+.slide-image{
+  width: 100%;
+    height: 100%;
+   display:block;
+    color: transparent;
+    background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+.slider .slide-item{
+  float:left;
+    padding: 0;
+    margin: 0;
+}
+.clear{
+  clear:both;
+}
+
+.carousel-caption{
+  width: 12%;
+  background:rgba(255, 255, 255, 0.85);
+  height:300px;
+  bottom:230px;
+  color:black;
+  left:1%;
+  padding-bottom:20px;
+  padding-top:20px;
+  position:absolute;
+  right:15%;
+  text-align:center;
+  z-index:10;
+}
+
+
+.carousel-caption h1{
+  color: black;
+  font-size:55px;
+
+}
+
+.carousel-caption p {
+  color:black;
+  font-size:16px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.carousel-caption h5 {
+  color:red;
+  font-size:20px;
+  font-weight:bold;
+  margin-right:293px;
+  margin-top:31px;
+}
+
+
+
+
+/*
+midpoint-section
+*/
+.middlepoint{
+
+  margin-top:34px;
+
+}
+
+
+
+.middlepoint h1{
+
+  color:#0080ff;
+
+}
+
+
+
+
+/*
+solution-section
+*/
+
+.solutions h2 {
+  color:green;
+  font-weight:bold;
+  text-align:center;
+}
+
+
+.post_wrapper .post{
+  width: 92%;
+  overflow: hidden;
+  margin:0px 10px;
+  display: inline-block;
+  background: #FFFFFF;
+ padding: 18px;
+
+}
+
+
+.post img {
+  height:232px;
+  width:100%;
+}
+
+.post h4 {
+  color:#46B3E9;
+  font-size:21px;
+  font-weight:bold;
+  margin-top:13px;
+  text-align:center;
+}
+
+
+
+ .post_slider .next {
+  position: relative;
+  float:right;
+  margin-right:-2%;
+  margin-top:22%;
+   cursor: pointer;
+}
+
+
+.post_slider .prev {
+  cursor:pointer;
+  float:left;
+  margin-top:22%;
+  position:relative;
+  right:0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+certificate-section
+*/
+
+.certificate{
+  background-color:#46B3E9;
+  
+}
+.certificate h1 {
+ 
+  text-align:center;
+}
+
+.certificate p{
+
+   text-align:center;
+  
+}
+
+
+
+
+/*
+certificate-section flickity plugin css
+*/
+
+.flickity-button {
+    position: absolute;
+    border: none;
+    color: #333;
+    box-shadow: none;
+    background: none;
+}
+.flickity-prev-next-button {
+    top: 50%;
+    width: 30px;
+    height: 44px;
+    transform: translateY(-50%);
+}
+
+.flickity-prev-next-button:hover {
+    background: none;
+}
+
+body { font-family: sans-serif; }
+
+
+.carousel{
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 40px;
+
+}
+
+
+.carousel-cell-image {
+  padding:15px;
+  width:400px;
+}
+
+.mycertcarsoul.carousel-cell {
+  width: 28%;
+  height: 600px;
+ margin-left: 100px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment:carousel-cell;
+}
+
+
+
+/* cell number */
+
+.mycertcarsoul.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: ;
+  font-size: 80px;
+  color: white;
+}
+
+
+
+/* our partner css */
+
+
+.logoslider img{
+  width: 110%;
+}
+
+.partner{
+  max-width: 120%;
+  margin:0 auto;
+}
+
+.partner h1{
+color: green;
+text-align: center;
+font-weight: bold;
+}
+
+.logoslider{
+  background-color: #fff;
+  padding: 15px;
+  
+}
+
+.logoslider .slick-slide{
+  margin:15px;
+}
+
+
+
+
+
+/* footersectione */
+
+.footersection {
+  background-color:#46B3E9;
+  
+}
+.fborder{
+  border-bottom: 1px solid grey;
+
+}
+
+
+
+.basisfooterlogo {
+  /*margin-left:135px;*/
+  margin-top:92px;
+}
+.footerlogo {
+  /*margin-left:128px;*/
+  margin-top:16px;
+}
+
+
+
+.fdes p {
+  color:black;
+  font-size:14px;
+  font-weight:bold;
+  line-height:24px;
+  margin-top:24px;
+  text-align:justify;
+}
+
+
+.contact h6 {
+  color:white;
+  font-size:15px;
+  font-weight:bold;
+
+}
+
+
+
+.contact p {
+  font-size:13px;
+  font-weight:bold;
+  
+}
+
+.Queicklink p{
+  color:white;
+  font-size:15px;
+  margin-left:50px;
+  font-weight:bold;
+}
+
+
+.Queicklink ul {
+  margin-top:-24px;
+}
+
+.Queicklink ul li {
+  font-size:14px;
+  font-weight:bold;
+  list-style:none;
+  padding-top:20px;
+}
+
+.Queicklink ul li a {
+ 
+  color: black;
+}
+
+
+.Queicklink ul li a .fooactive{
+ 
+  color: green;
+}
+
+.Queicklink ul li:before {
+    content: ' \003E';
+    color: white;
+    font-size:12px;
+    font-weight: bold;
+    padding:12px;
+}
+
+
+.Queicklink ul  li a:hover {
+
+  color:green;
+  text-decoration: none;  
+}
+
+
+.reserved p {
+  font-size:13px;
+  font-weight:bold;
+  margin-top:15px;
+  text-align:right;
+}
+
+
+
+
+
+/*stickytop button*/
+
+#topBtn{
+  position:fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  width:40px;
+  height: 40px;
+  background:#9FACAC;
+  border: none;
+  cursor: pointer;
+  color: white;
+  
+}
+
+
+
+
+
+/*About Us  */
+
+/*Company Background */
+
+.cmbg {
+  
+  width:82%;
+}
+.fone{
+  font-size: 17px;
+  margin-left: 2px;
+  text-align: justify;
+}
+.underp{
+text-align: justify;
+font-size: 17px;
+
+
+}
+
+/*Managing Director */
+
+
+.managing h5 {
+  font-size:14px;
+  font-weight:bold;
+  margin-left:109px;
+}
+
+.managing h6 {
+  font-size:14px;
+  font-weight:bold;
+  margin-left:128px;
+}
+
+
+.fone1 p{
+  font-size: 17px;
+  margin-top:25px;
+  margin-left: 2px;
+  text-align: justify;
+
+}
+.underp1 p {
+  font-size:17px;
+  margin-left:92px;
+  margin-right:81px;
+  margin-top:40px;
+  text-align:justify;
+}
+
+.sname{
+  text-align: center;
+
+}
+
+
+/* Director Message */
+.directormessage{
+
+  margin-top:4px;
+  
+}
+
+.directormessage h5 {
+  font-size:17px;
+  font-weight:bold;
+  margin-left:116px;
+  margin-top:38px;
+}
+
+.directormessage h6 {
+  font-size:17px;
+  font-weight:bold;
+  margin-left:140px;
+  margin-top:15px;
+}
+
+.director {
+  margin-top:63px;
+  text-align:justify;
+}
+
+
+
+/*our project*/
+
+
+/*tollmanagenent*/
+
+.toll {
+
+  }
+
+.toll h2 {
+  color:green;
+  font-size:36px;
+  font-weight:bold;
+
+}
+
+.toll h4 {
+
+ text-align: justify;
+  color: #73e1fb;
+
+  }
+
+
+  /*alex load */
+
+.alex h2{
+  color: green;
+   font-weight: bold;
+}
+
+.alex h5 {
+  font-size:15px;
+  font-weight:bold;
+  margin-top:38px;
+}
+
+.key h4 {
+  color:green;
+  font-size:22px;
+  font-weight:bold;
+  margin-top:30px;
+}
+
+.keyimage{
+  width:92%;
+}
+
+.keyimage p {
+  text-align:center;
+  font-weight: bold;
+  font-size:22px;
+}
+
+.keyimage h6 {
+  font-size:15px;
+  line-height:27px;
+  margin-top:33px;
+  text-align:justify;
+  width:95%;
+}
+
+/**/
+.parking h2{
+
+  color:green;
+  font-weight:bold;
+
+}
+
+.parking h4 {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.parking h1 {
+  color:black;
+  font-size:31px;
+  font-weight:bold;
+}
+
+.Guidance {
+  margin-left:-50px;
+  margin-top:28px;
+}
+
+
+
+
+/*our product*/
+
+/*regnum it*/
+
+
+
+
+/*regnum architecture*/
+
+.portfolio{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+.beani p{
+  font-size:14px;
+  font-weight:bold;
+  margin-left: 400px;
+}
+
+
+
+.wraper1{
+  height: 40vh;
+  margin: auto;
+  position: relative;
+}
+
+.wraper1 img{
+  display: block;
+  width: 100%;
+  height: 100%;
+
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background:rgba(0,81,1,0.85);
+
+}
+
+
+.imagehover{
+  margin-top: 40%;
+  margin-left: 45%;
+  color: blanchedalmond;
+  font-size: 20px;
+  font-weight: 700;
+}
+.imagehover i{
+  padding: 5px;
+  border:1px solid white;
+  border-radius: 60%;
+  width: 18%;
+  text-align: center;
+}
+.imagehover i:hover{
+  background-color: rgba(255, 255, 255, .5);
+}
+.imagehover p{
+  margin-left: -40%;
+}
+.wraper1:hover .overlay{
+  opacity: 1;
+}
+
+
+
+
+
+
+/*Gallery*/
+
+.wraper2{
+    margin: auto;
+    position: relative;
+}
+.wraper2 img{
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+
+}
+.gallary{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.overlay1{
+    opacity: 0;
+    margin-left: 15px;
+}
+.imagehover1{
+    margin-top: 60%;
+    color: blanchedalmond;
+    font-size: 1.5rem;
+    
+}
+.imagehover1 i{
+    padding: 5px;
+    border:1px solid white;
+    border-radius: 60%;
+    background-color: rgba(255, 255, 255, .5);
+    color: white;
+  }
+
+.imagehover1 i:hover{
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.wraper2:hover .gallary{
+    background: linear-gradient(to top, rgba(255, 255, 255, .2) 0%, rgba(0,128,0,.8) 100%);
+    opacity: 1;
+}
+.wraper2:hover .imagehover1{
+    margin-top: 50%;
+    transition: height 4s;
+}
+
+.wraper2:hover .overlay1{
+    opacity: 1;
+}
+
+.wraper2 {
+  margin-left: 15px;
+}
+.content{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.content p{
+        color: #b4b5bb;
+}
+
+.content h5{
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+
+
+.readmore{
+    opacity: 0;
+}
+.wraper2:hover .readmore  {
+    opacity: 1;
+    
+}
+
+
+/*Gallery read more sub page*/
+
+.headers1{
+    text-align: center;
+}
+.headers1 h2{
+    font-weight: bold;
+}
+.headers1 p {
+    
+    text-align: center;
+}
+.headers1 p a{
+    color: #b4b5bb;
+    text-align: center;
+}
+.headers1 p span{
+    color: #b4b5bb;
+    
+}
+.signning img{
+
+    width: 100%;
+}
+.signning p{
+    text-align: center;
+    color: #b4b5bb;
+}
+.signning p a{
+    text-align: center;
+    color: #b4b5bb;
+    text-decoration: none 
+}
+.signning h3{
+    text-align: center;
+}
+.signning .paraghaph{
+    color: black;
+    text-align: center;
+}  
+.signning .checkbox{
+    display: flex;
+}  
+.signning button{
+    font-weight: 600;
+    color: white;
+    background-color: green;
+}
+.signning button:hover{
+    font-weight: 600;
+    color: white;
+    background-color: #1ebbf0;
+}
+.undersearch a{
+    color: #b4b5bb;
+}
+.undersearch a:hover{
+    color: green;
+    text-decoration: none ;
+}
+
+
+
+
+
+/*contact us*/
+
+.bgcolour{
+  background-color: #d9edfa;
+  opacity: .8;
+  border-radius: 5px;
+  
+}
+.margin{
+  margin: auto;
+}
+.in{
+  width: 100%;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width:0 px;
+  
+}
+.sendbtn{
+  margin-top: 40vh;
+}
+.bgsend{
+  background-color: #005101;
+  color: #d9edfa;
+}
+.bgsend:hover{
+  background-color: #23aadd;
+  color: #d9edfa;
+}
+
+
+
